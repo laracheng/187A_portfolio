@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>A Generic Page</title>
+    <meta name="description" content="something good should go here">
+    <meta name="author" content="your name should go here">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Base Stylsheets http://twitter.github.com/bootstrap/ -->
+    <link rel="stylesheet" href="stylesheets/lib/bootstrap.css" >
+    <link rel="stylesheet" href="stylesheets/lib/jquery.fancybox.css" >
+
+
+    <!-- Your Stylesheets -->
+    <link rel="stylesheet" href="stylesheets/main.css" >
+
+    <!-- Base Javascripts -->
+    <script src="javascripts/lib/base.js"></script>
+
+    <!-- Fancybox Lightbox http://fancyapps.com/fancybox/#examples -->
+    <script src="javascripts/lib/jquery.fancybox.js"></script>
+
+
+    <!-- Your Javascripts -->
+    <script src="javascripts/main.js"></script>
+    
+    <!-- My styling -->
+    <style type="text/css">
+      .snake{height:150px;}
+    </style>
+
+  </head>
+
+  <body>
+    
+    <div class="container">
+      <h1>My first heading</h1>
+      <p>My first paragraph</p>
+      
+    
+
+      <div class="row">
+
+        <div class="span2">
+          PUT
+        </div>
+
+        <div class="span2">
+          STUFF
+        </div>
+
+        <div class="span2">
+          HERE
+        </div>
+
+        
+        <div class="span15">
+        <br>
+        <p>
+        <font size = 20>POSTER</font size>
+        </p>
+        </br>
+        </div>
+        
+        
+        <div class="span15">
+          <h3>
+           This is a poster I made during my Summer Internship at
+           NASA Ames Research Center in 2010.
+           <h3>The poster presents data and analysis from a human-in-the-loop
+           simulation of a future air traffic management concept.
+           <h3>I presented this 32"x42" poster at the <b>Summer Intern Poster Symposium</b> that year.
+         
+          </h3>
+          </h3>
+          </h3>
+        </div>
+        
+
+
+        <div class="span15">
+          <center>
+          <a class="fancybox" href="images/snake.jpg" data-fancybox-group="gallery" title="COGS 187"><img class="snake" src="images/snake.jpg" alt="COGS187" /></a>  
+          <a class="fancybox" href="images/leaves.jpg" data-fancybox-group="gallery" title="COGS 187"><img class="snake" src="images/lantau.jpg" alt="COGS187" /></a>
+          <a class="fancybox" href="images/lantau.jpg" data-fancybox-group="gallery" title="COGS 187"><img class="snake" src="images/leaves.jpg" alt="COGS187" /></a>
+          <a class="fancybox" href="images/hong_kong.jpg" data-fancybox-group="gallery" title="COGS 187"><img class="snake" src="images/hong_kong.jpg" alt="COGS187" /></a>
+          </center>
+        </div>
+        
+      
+        
+        
+        <div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+          Lara Cheng (laracheng90@gmail.com)
+        </div>
+
+      </div> <!-- end row -->
+
+    </div> <!-- end container -->
+
+  </body>
+</html>
